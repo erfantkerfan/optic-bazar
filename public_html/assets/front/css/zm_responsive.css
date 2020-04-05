@@ -1,0 +1,115 @@
+/* LG = (For Large devices Desktops) */
+@media (min-width: 1200px){
+    
+}
+
+/* SM TO MD = (For Medium devices Desktops) */
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+
+/* Biger than SM = (For Medium devices Desktops ) */
+@media (min-width: 992px){
+    
+}
+
+/* XS to MD */
+@media (max-width: 992px){
+
+    .owl-theme .owl-controls {
+        display: none !important;
+    }
+    .category-icon li {
+        width: 33.33%;
+    }
+
+    .center_section_footer div.center {
+        border-left: 0;
+        border-right: 0;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .box_slide {
+        bottom: 15px;
+    }
+    .hb-inner h1 {
+        font-size: 18px;
+        margin-bottom: -7px;
+        margin-top: 0;
+    }
+    .hb-inner p {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .hb-inner a {
+        padding: 6px 15px;
+        font-size: 12px;
+    }
+    .zm_baner_center {
+        background-position: 26% top;
+    }
+    .single_product h1 {
+        font-size: 16px;
+        margin: 34px 0;
+        margin-bottom: 15px;
+    }
+    .item_prescription .invite span,
+    .panel span.item_head.pull-right {
+        float: none !important;
+    }
+    .panel .panel-heading .panel-title {
+        line-height: 29px;
+    }
+    .item_prescription .invite {
+        line-height: 33px;
+    }
+    .full_data_prescription {
+        padding: 0;
+    }
+    .box_add_item {
+        margin-bottom: 56px;
+    }
+    .item_full input.form-control {
+        padding: 0;
+    }
+    .main_step {
+        padding: 25px 5px 15px;
+    }
+    .btn-label {
+        display: none;
+    }
+    a.btn.btn-success.waves-effect.waves-light.add_order {
+        margin-top: 10px;
+    }
+    .m-card.header_box_app h2 {
+        margin-bottom: 9px;
+        padding: 0 10px;
+    }
+    .m-card.header_box_app {
+        padding: 15px 2px;
+    }
+
+    div#new_loader_presentation li {
+        width: 100%;
+    }
+
+    .invoice_dill {
+        width: 100%;
+    }
+
+}
+
+/* SM Only = (For Small devices Tablets ) */
+@media (min-width: 767px) and (max-width: 992px){
+	
+}
+
+/* Biger than XS = (For Small devices Tablets )*/
+@media (min-width: 767px){
+}
+
+/* XS = (For Extra small devices Phones)*/
+@media (max-width: 768px){
+    
+}
